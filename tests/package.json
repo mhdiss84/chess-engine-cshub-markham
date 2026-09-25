@@ -1,0 +1,13 @@
+{
+  "name": "chess-booth-tests",
+  "private": true,
+  "description": "Headless test harness for the chess booth app. Not needed at runtime.",
+  "scripts": {
+    "test": "node run-all.js",
+    "selfplay": "node selfplay.js",
+    "tournament": "node tournament.js"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0"
+  }
+}

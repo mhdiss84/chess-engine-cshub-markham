@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terminal Chess</title>
+  <!-- Fully offline: every asset below is a local file. No CDN, no network calls. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="window" id="window">
+    <div class="titlebar" aria-hidden="true">
+      <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+      <span class="title">chess@cshub:~$ ./play --engine=alphabeta</span>
+    </div>
+
+    <div class="screen">
+      <section class="board-pane">
+        <div class="banner" id="banner" hidden></div>
+        <div class="board-wrap">
+          <div class="ranks" id="ranks"></div>
+          <div class="board" id="board" role="grid" aria-label="chess board"></div>
+          <div></div>
+          <div class="files" id="files"></div>
+        </div>
+        <div class="status" id="status"></div>
+        <div class="promo" id="promo" hidden>
+          promote&gt;
+          <button class="cmd" data-promo="q">[Q]</button>
+          <button class="cmd" data-promo="r">[R]</button>
+          <button class="cmd" data-promo="b">[B]</button>
+          <button class="cmd" data-promo="n">[N]</button>
+          <button class="cmd" data-promo="cancel">[ESC]</button>
+        </div>
+      </section>
+
+      <section class="side-pane">
+        <div class="panel">
+          <div class="panel-title">-- engine.log --</div>
+          <div class="log" id="log" aria-live="polite"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-title">-- moves.history --</div>
+          <div class="history" id="history"></div>
+        </div>
+      </section>
+    </div>
+
+    <div class="cmdbar">
+      <span class="prompt">$</span>
+      <span class="cmd-label">difficulty:</span>
+      <button class="cmd diff" data-diff="EASY">[EASY]</button>
+      <button class="cmd diff" data-diff="MEDIUM">[MEDIUM]</button>
+      <button class="cmd diff" data-diff="HARD">[HARD]</button>
+      <span class="sep">|</span>
+      <button class="cmd" id="newgame">[NEW GAME]</button>
+      <button class="cmd" id="theme">[THEME]</button>
+    </div>
+  </div>
+
+  <script src="chessjs.js"></script>
+  <script src="evaluation.js"></script>
+  <script src="engine.js"></script>
+  <script src="ui.js"></script>
+</body>
+</html>

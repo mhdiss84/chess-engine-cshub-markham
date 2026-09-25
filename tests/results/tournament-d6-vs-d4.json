@@ -1,0 +1,31 @@
+{
+ "strong": 6,
+ "weak": 4,
+ "pairs": 10,
+ "seed": 9000,
+ "capMs": 8000,
+ "wins": 17,
+ "draws": 1,
+ "losses": 2,
+ "scorePct": 87.5,
+ "decisiveWinPct": 89.47368421052632,
+ "elo": 338,
+ "byColor": {
+  "white": {
+   "w": 8,
+   "d": 1,
+   "l": 1
+  },
+  "black": {
+   "w": 9,
+   "d": 0,
+   "l": 1
+  }
+ },
+ "reasons": {
+  "checkmate": 19,
+  "threefold": 1
+ },
+ "failures": [],
+ "wallTime": "18m01s"
+}

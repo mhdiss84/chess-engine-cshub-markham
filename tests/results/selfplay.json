@@ -1,0 +1,94 @@
+{
+ "seed": 1000,
+ "levels": {
+  "EASY": {
+   "depth": 2,
+   "timeMs": 15000
+  },
+  "MEDIUM": {
+   "depth": 4,
+   "timeMs": 15000
+  },
+  "HARD": {
+   "depth": 6,
+   "timeMs": 8000
+  }
+ },
+ "summary": {
+  "EASY": {
+   "games": 300,
+   "completedCleanly": 300,
+   "failures": 0,
+   "endReasons": {
+    "checkmate": 177,
+    "threefold": 118,
+    "fifty-move": 5
+   },
+   "whiteWins": 104,
+   "blackWins": 73,
+   "draws": 123,
+   "avgPlies": 83.4,
+   "maxPlies": 438,
+   "avgMoveMs": 12,
+   "maxMoveMs": 60,
+   "depthReached": {
+    "1": 177,
+    "2": 23957
+   },
+   "wallTime": "1m04s",
+   "failureDetails": []
+  },
+  "MEDIUM": {
+   "games": 200,
+   "completedCleanly": 200,
+   "failures": 0,
+   "endReasons": {
+    "checkmate": 140,
+    "threefold": 48,
+    "fifty-move": 8,
+    "insufficient": 4
+   },
+   "whiteWins": 74,
+   "blackWins": 66,
+   "draws": 60,
+   "avgPlies": 130.9,
+   "maxPlies": 531,
+   "avgMoveMs": 235,
+   "maxMoveMs": 1664,
+   "depthReached": {
+    "1": 140,
+    "2": 140,
+    "3": 140,
+    "4": 25164
+   },
+   "wallTime": "8m27s",
+   "failureDetails": []
+  },
+  "HARD": {
+   "games": 24,
+   "completedCleanly": 24,
+   "failures": 0,
+   "endReasons": {
+    "checkmate": 23,
+    "insufficient": 1
+   },
+   "whiteWins": 8,
+   "blackWins": 15,
+   "draws": 1,
+   "avgPlies": 132,
+   "maxPlies": 264,
+   "avgMoveMs": 4260,
+   "maxMoveMs": 8156,
+   "depthReached": {
+    "1": 23,
+    "2": 23,
+    "3": 23,
+    "4": 24,
+    "5": 1031,
+    "6": 1972
+   },
+   "wallTime": "39m19s",
+   "failureDetails": []
+  }
+ }
+}

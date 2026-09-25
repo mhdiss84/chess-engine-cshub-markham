@@ -1,0 +1,13 @@
+== tournament: depth 6 vs depth 4, 10 pairs = 20 games, 8s cap per move ==
+  20/20 games  (18m01s)
+
+depth 6 results over 20 games (vs depth 4):
+  wins 17  draws 1  losses 2
+  win rate 85.0%  |  score 87.5%  |  wins among decisive games 89.5%
+  as white: {"w":8,"d":1,"l":1}  as black: {"w":9,"d":0,"l":1}
+  end reasons: {"checkmate":19,"threefold":1}
+  implied Elo difference: ~+338
+  failures (crash/illegal/no end): 0
+saved C:\Users\mahdi\chess-engine\tests\results\tournament-d6-vs-d4.json
+TOURNAMENT: PASS (depth 6 wins a clear majority)
+exit 0

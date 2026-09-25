@@ -1,0 +1,32 @@
+== tournament: depth 4 vs depth 2, 200 pairs = 400 games ==
+  20/400 games  (18s)
+  40/400 games  (36s)
+  60/400 games  (52s)
+  80/400 games  (1m06s)
+  100/400 games  (1m22s)
+  120/400 games  (1m39s)
+  140/400 games  (1m59s)
+  160/400 games  (2m21s)
+  180/400 games  (2m39s)
+  200/400 games  (3m02s)
+  220/400 games  (3m25s)
+  240/400 games  (3m46s)
+  260/400 games  (4m01s)
+  280/400 games  (4m22s)
+  300/400 games  (4m39s)
+  320/400 games  (4m59s)
+  340/400 games  (5m20s)
+  360/400 games  (5m40s)
+  380/400 games  (6m01s)
+  400/400 games  (7m19s)
+
+depth 4 results over 400 games (vs depth 2):
+  wins 379  draws 17  losses 4
+  win rate 94.8%  |  score 96.9%  |  wins among decisive games 99.0%
+  as white: {"w":191,"d":9,"l":0}  as black: {"w":188,"d":8,"l":4}
+  end reasons: {"checkmate":383,"threefold":17}
+  implied Elo difference: ~+597
+  failures (crash/illegal/no end): 0
+saved C:\Users\mahdi\chess-engine\tests\results\tournament-d4-vs-d2.json
+TOURNAMENT: PASS (depth 4 wins a clear majority)
+exit 0

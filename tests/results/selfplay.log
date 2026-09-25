@@ -1,0 +1,57 @@
+
+== EASY (depth 2, cap 15s): 300 games ==
+  30/300 games  (5s)
+  60/300 games  (10s)
+  90/300 games  (16s)
+  120/300 games  (21s)
+  150/300 games  (26s)
+  180/300 games  (35s)
+  210/300 games  (40s)
+  240/300 games  (44s)
+  270/300 games  (50s)
+  300/300 games  (1m04s)
+  clean endings: 300/300   failures: 0
+  end reasons: {"checkmate":177,"threefold":118,"fifty-move":5}
+  results: white 104, black 73, draws 123
+  plies avg 83.4 max 438; think time avg 12ms max 60ms
+  depth reached per move: {"1":177,"2":23957}
+
+== MEDIUM (depth 4, cap 15s): 200 games ==
+  20/200 games  (48s)
+  40/200 games  (1m41s)
+  60/200 games  (2m24s)
+  80/200 games  (3m11s)
+  100/200 games  (3m57s)
+  120/200 games  (4m46s)
+  140/200 games  (5m35s)
+  160/200 games  (6m30s)
+  180/200 games  (7m24s)
+  200/200 games  (8m27s)
+  clean endings: 200/200   failures: 0
+  end reasons: {"checkmate":140,"threefold":48,"fifty-move":8,"insufficient":4}
+  results: white 74, black 66, draws 60
+  plies avg 130.9 max 531; think time avg 235ms max 1664ms
+  depth reached per move: {"1":140,"2":140,"3":140,"4":25164}
+
+== HARD (depth 6, cap 8s): 24 games ==
+  2/24 games  (7m58s)
+  4/24 games  (9m11s)
+  6/24 games  (10m36s)
+  8/24 games  (15m08s)
+  10/24 games  (17m57s)
+  12/24 games  (19m48s)
+  14/24 games  (25m17s)
+  16/24 games  (28m02s)
+  18/24 games  (30m23s)
+  20/24 games  (35m07s)
+  22/24 games  (36m43s)
+  24/24 games  (39m19s)
+  clean endings: 24/24   failures: 0
+  end reasons: {"checkmate":23,"insufficient":1}
+  results: white 8, black 15, draws 1
+  plies avg 132 max 264; think time avg 4260ms max 8156ms
+  depth reached per move: {"1":23,"2":23,"3":23,"4":24,"5":1031,"6":1972}
+
+saved C:\Users\mahdi\chess-engine\tests\results\selfplay.json
+SELF-PLAY: ALL GAMES ENDED CLEANLY
+exit 0
